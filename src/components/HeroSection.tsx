@@ -8,7 +8,7 @@ const HeroSection = () => (
     {/* Background image */}
     <div className="absolute inset-0">
       <img src={heroImg} alt="Almacén industrial con montacargas" className="w-full h-full object-cover" width={1920} height={1080} />
-      <div className="absolute inset-0 gradient-hero opacity-85" />
+      <div className="absolute inset-0 gradient-hero opacity-50" />
     </div>
 
     <div className="container relative z-10 py-32 md:py-40">
@@ -25,7 +25,7 @@ const HeroSection = () => (
           Soluciones confiables para logística, almacenes e industria. Equipos listos, servicio técnico especializado y atención personalizada.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
-          <Button size="lg" className="gradient-cta text-primary-foreground border-0 text-base px-8 py-6 shadow-lg hover:opacity-90 transition-opacity" asChild>
+          <Button size="lg" className="gradient-cta text-primary-foreground border-0 text-base px-8 py-6 shadow-lg hover:opacity-50 transition-opacity" asChild>
             <a href="#contacto">
               <FileText className="w-5 h-5 mr-2" />
               Solicitar cotización
