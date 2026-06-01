@@ -1,0 +1,16 @@
+{
+  "name": "DSANT Montacargas",
+  "short_name": "DSANT",
+  "description": "Venta, renta, servicio y refacciones de montacargas en Guadalajara.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f6f8",
+  "theme_color": "#f5f6f8",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
